@@ -1,0 +1,62 @@
+{
+   <insert_a_suppression_name_here>
+   Helgrind:Race
+   fun:_ZNSt6thread5_ImplISt12_Bind_simpleIFPFvR14ResourceBrokerR15ResourceRecoverESt17reference_wrapperIS2_ES8_IS4_EEEED1Ev
+   fun:_ZN9__gnu_cxx13new_allocatorINSt6thread5_ImplISt12_Bind_simpleIFPFvR14ResourceBrokerR15ResourceRecoverESt17reference_wrapperIS4_ESA_IS6_EEEEEE7destroyISF_EEvPT_
+   fun:_ZNSt16allocator_traitsISaINSt6thread5_ImplISt12_Bind_simpleIFPFvR14ResourceBrokerR15ResourceRecoverESt17reference_wrapperIS3_ES9_IS5_EEEEEEE10_S_destroyISE_EENSt9enable_ifIXsrNSG_16__destroy_helperIT_EE5valueEvE4typeERSF_PSK_
+   fun:_ZNSt16allocator_traitsISaINSt6thread5_ImplISt12_Bind_simpleIFPFvR14ResourceBrokerR15ResourceRecoverESt17reference_wrapperIS3_ES9_IS5_EEEEEEE7destroyISE_EEvRSF_PT_
+   fun:_ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvR14ResourceBrokerR15ResourceRecoverESt17reference_wrapperIS3_ES9_IS5_EEEEESaISE_ELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv
+   fun:_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv
+   fun:_ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EED1Ev
+   fun:_ZNSt12__shared_ptrINSt6thread10_Impl_baseELN9__gnu_cxx12_Lock_policyE2EED2Ev
+   fun:_ZNSt10shared_ptrINSt6thread10_Impl_baseEED1Ev
+   fun:_ZNSt6threadC1IRFvR14ResourceBrokerR15ResourceRecoverEISt17reference_wrapperIS1_ES7_IS3_EEEEOT_DpOT0_
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Helgrind:Race
+   fun:_ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EED1Ev
+   fun:_ZNSt12__shared_ptrINSt6thread10_Impl_baseELN9__gnu_cxx12_Lock_policyE2EED2Ev
+   fun:_ZNSt10shared_ptrINSt6thread10_Impl_baseEED1Ev
+   fun:_ZNSt6thread10_Impl_baseD1Ev
+   fun:_ZNSt6thread5_ImplISt12_Bind_simpleIFPFvR14ResourceBrokerR15ResourceRecoverESt17reference_wrapperIS2_ES8_IS4_EEEED1Ev
+   fun:_ZN9__gnu_cxx13new_allocatorINSt6thread5_ImplISt12_Bind_simpleIFPFvR14ResourceBrokerR15ResourceRecoverESt17reference_wrapperIS4_ESA_IS6_EEEEEE7destroyISF_EEvPT_
+   fun:_ZNSt16allocator_traitsISaINSt6thread5_ImplISt12_Bind_simpleIFPFvR14ResourceBrokerR15ResourceRecoverESt17reference_wrapperIS3_ES9_IS5_EEEEEEE10_S_destroyISE_EENSt9enable_ifIXsrNSG_16__destroy_helperIT_EE5valueEvE4typeERSF_PSK_
+   fun:_ZNSt16allocator_traitsISaINSt6thread5_ImplISt12_Bind_simpleIFPFvR14ResourceBrokerR15ResourceRecoverESt17reference_wrapperIS3_ES9_IS5_EEEEEEE7destroyISE_EEvRSF_PT_
+   fun:_ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvR14ResourceBrokerR15ResourceRecoverESt17reference_wrapperIS3_ES9_IS5_EEEEESaISE_ELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv
+   fun:_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv
+   fun:_ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EED1Ev
+   fun:_ZNSt12__shared_ptrINSt6thread10_Impl_baseELN9__gnu_cxx12_Lock_policyE2EED2Ev
+}
+{
+   <insert_a_suppression_name_here>
+   Helgrind:PthAPIerror
+   obj:/usr/lib/valgrind/vgpreload_helgrind-amd64-linux.so
+   fun:_ZN15ResourceRecoverD1Ev
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Helgrind:Race
+   obj:/home/efrruiz/Desktop/emc2/03_nested_resources/clean_code_01
+}
+{
+   <insert_a_suppression_name_here>
+   Helgrind:Race
+   obj:/home/efrruiz/Desktop/emc2/03_nested_resources/clean_code_01
+   obj:*
+   fun:__run_exit_handlers
+   fun:exit
+   fun:(below main)
+}
+{
+   <insert_a_suppression_name_here>
+   Helgrind:Race
+   fun:_ZNSo5flushEv
+   obj:*
+   fun:_ZNSt8ios_base4InitD1Ev
+   fun:__run_exit_handlers
+   fun:exit
+   fun:(below main)
+}

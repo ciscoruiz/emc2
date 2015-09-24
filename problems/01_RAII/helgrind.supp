@@ -1,0 +1,101 @@
+{
+   <insert_a_suppression_name_here>
+   Helgrind:Race
+   fun:_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l
+   fun:_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+   fun:_ZN4emc26common5TraceC1EPKc
+   fun:_ZN7Account8withdrawEi
+   fun:_Z8withdrawR7Accounti
+   fun:_ZNSt12_Bind_simpleIFPFvR7AccountiESt17reference_wrapperIS0_EiEE9_M_invokeIILm0ELm1EEEEvSt12_Index_tupleIIXspT_EEE
+   fun:_ZNSt12_Bind_simpleIFPFvR7AccountiESt17reference_wrapperIS0_EiEEclEv
+   fun:_ZNSt6thread5_ImplISt12_Bind_simpleIFPFvR7AccountiESt17reference_wrapperIS2_EiEEE6_M_runEv
+   obj:/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.18
+   obj:/usr/lib/valgrind/vgpreload_helgrind-amd64-linux.so
+   fun:start_thread
+   fun:clone
+}
+{
+   <insert_a_suppression_name_here>
+   Helgrind:Race
+   fun:_ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE13_M_insert_intImEES3_S3_RSt8ios_basecT_
+   fun:_ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_RSt8ios_basecm
+   fun:_ZNSo9_M_insertImEERSoT_
+   fun:_ZN7Account8withdrawEi
+   fun:_Z8withdrawR7Accounti
+   fun:_ZNSt12_Bind_simpleIFPFvR7AccountiESt17reference_wrapperIS0_EiEE9_M_invokeIILm0ELm1EEEEvSt12_Index_tupleIIXspT_EEE
+   fun:_ZNSt12_Bind_simpleIFPFvR7AccountiESt17reference_wrapperIS0_EiEEclEv
+   fun:_ZNSt6thread5_ImplISt12_Bind_simpleIFPFvR7AccountiESt17reference_wrapperIS2_EiEEE6_M_runEv
+   obj:/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.18
+   obj:/usr/lib/valgrind/vgpreload_helgrind-amd64-linux.so
+   fun:start_thread
+   fun:clone
+}
+{
+   <insert_a_suppression_name_here>
+   Helgrind:Race
+   fun:_ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE13_M_insert_intImEES3_S3_RSt8ios_basecT_
+   fun:_ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_RSt8ios_basecm
+   fun:_ZNSo9_M_insertImEERSoT_
+   fun:_ZN4emc26common5TraceC1EPKc
+   fun:_ZN7Account8withdrawEi
+   fun:_Z8withdrawR7Accounti
+   fun:_ZNSt12_Bind_simpleIFPFvR7AccountiESt17reference_wrapperIS0_EiEE9_M_invokeIILm0ELm1EEEEvSt12_Index_tupleIIXspT_EEE
+   fun:_ZNSt12_Bind_simpleIFPFvR7AccountiESt17reference_wrapperIS0_EiEEclEv
+   fun:_ZNSt6thread5_ImplISt12_Bind_simpleIFPFvR7AccountiESt17reference_wrapperIS2_EiEEE6_M_runEv
+   obj:/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.18
+   obj:/usr/lib/valgrind/vgpreload_helgrind-amd64-linux.so
+   fun:start_thread
+}
+{
+   <insert_a_suppression_name_here>
+   Helgrind:Race
+   fun:_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l
+   fun:_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+   fun:_ZN4emc26common5TraceD1Ev
+   fun:_ZN7Account8withdrawEi
+   fun:_Z8withdrawR7Accounti
+   fun:_ZNSt12_Bind_simpleIFPFvR7AccountiESt17reference_wrapperIS0_EiEE9_M_invokeIILm0ELm1EEEEvSt12_Index_tupleIIXspT_EEE
+   fun:_ZNSt12_Bind_simpleIFPFvR7AccountiESt17reference_wrapperIS0_EiEEclEv
+   fun:_ZNSt6thread5_ImplISt12_Bind_simpleIFPFvR7AccountiESt17reference_wrapperIS2_EiEEE6_M_runEv
+   obj:/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.18
+   obj:/usr/lib/valgrind/vgpreload_helgrind-amd64-linux.so
+   fun:start_thread
+   fun:clone
+}
+{
+   <insert_a_suppression_name_here>
+   Helgrind:Race
+   fun:_ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE13_M_insert_intImEES3_S3_RSt8ios_basecT_
+   fun:_ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_RSt8ios_basecm
+   fun:_ZNSo9_M_insertImEERSoT_
+   fun:_ZN4emc26common5TraceD1Ev
+   fun:_ZN7Account8withdrawEi
+   fun:_Z8withdrawR7Accounti
+   fun:_ZNSt12_Bind_simpleIFPFvR7AccountiESt17reference_wrapperIS0_EiEE9_M_invokeIILm0ELm1EEEEvSt12_Index_tupleIIXspT_EEE
+   fun:_ZNSt12_Bind_simpleIFPFvR7AccountiESt17reference_wrapperIS0_EiEEclEv
+   fun:_ZNSt6thread5_ImplISt12_Bind_simpleIFPFvR7AccountiESt17reference_wrapperIS2_EiEEE6_M_runEv
+   obj:/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.18
+   obj:/usr/lib/valgrind/vgpreload_helgrind-amd64-linux.so
+   fun:start_thread
+}
+{
+   <insert_a_suppression_name_here>
+   Helgrind:Race
+   fun:_ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE13_M_insert_intImEES3_S3_RSt8ios_basecT_
+   fun:_ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_RSt8ios_basecm
+   fun:_ZNSo9_M_insertImEERSoT_
+   fun:_Z8withdrawR7Accounti
+   fun:_ZNSt12_Bind_simpleIFPFvR7AccountiESt17reference_wrapperIS0_EiEE9_M_invokeIILm0ELm1EEEEvSt12_Index_tupleIIXspT_EEE
+   fun:_ZNSt12_Bind_simpleIFPFvR7AccountiESt17reference_wrapperIS0_EiEEclEv
+   fun:_ZNSt6thread5_ImplISt12_Bind_simpleIFPFvR7AccountiESt17reference_wrapperIS2_EiEEE6_M_runEv
+   obj:/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.18
+   obj:/usr/lib/valgrind/vgpreload_helgrind-amd64-linux.so
+   fun:start_thread
+   fun:clone
+}
+#{
+#   <insert_a_suppression_name_here>
+#   Helgrind:Misc
+#   fun:start_thread
+#   fun:clone
+#}
